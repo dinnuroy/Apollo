@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+#outlined-basic{
+  float: right;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+.dataTable {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  text-align: center;
+}
+.dataTable td,
+.dataTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.dataTable tr:nth-child(even) {
+  background-color: #8d8989;
+}
+.dataTable tr:hover {
+  background-color: #ddd;
+}
+#mobile{
+  color: rgb(27, 48, 235);
+}
+#time{
+  background-color: rgb(11, 235, 235);
+  border: 1px solid rgb(26, 25, 25);
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+.topbar{
+  display: inline-flex;
+  align-items: flex-end;
+  padding: 15px;
+}
+.topbar button{
+  width: 50%;
+}
+.icons{
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+.icns > *{
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.footer{
+  position: fixed;
+}
+.line{
+  border: 3px solid black;
+}
+.topbarMain{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.topbarMain > *{
+  margin-left: 5px;
+}
+.styledicons{
+  display: flex;
+  justify-content: space-around;
+}
+.styledicons > *{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.search{
+  display: flex;
+  justify-content: right;
+  margin-bottom: 1%;
+}
+#outlined-basic{
+  height: 15px;
+  margin-right: 20px;
+}
